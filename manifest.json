@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "uwuafyer",
+    "icons": {
+        "256": "icon.png"
+    },
+    "description": "uwuafys text",
+    "version": "0.1",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "toggle uwuafyer"
+    },
+    "content_scripts": [{
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": [
+            "content.js"
+        ],
+        "run_at": "document_end"
+    }]
+}
