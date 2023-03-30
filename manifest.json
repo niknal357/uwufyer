@@ -1,10 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "uwufyer",
+    "name": "uwuafyer",
     "icons": {
-        "256": "icon.png"
+        "256": "icon256.png",
+        "700": "icon700.png"
     },
-    "description": "uwufys text",
+    "description": "uwuafys text",
     "version": "0.1",
     "permissions": [
         "storage",
@@ -13,7 +14,7 @@
     "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html",
-        "default_title": "toggle uwufyer"
+        "default_title": "toggle uwuafyer"
     },
     "content_scripts": [{
         "matches": [
